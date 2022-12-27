@@ -1,0 +1,252 @@
+$bg-white:#fff;
+$bg-orange:orange;
+$bg-liner1:rgb(64, 64, 142);
+
+$bg-black:#000;
+$font-family: 'Roboto Condensed', sans-serif;
+.logo{
+    height: 60px;
+}
+.pt{
+    padding-top: 190px;
+}
+.pt1{
+    padding-top: 150px;
+}
+.slider{
+    width:100%;
+    height:500px;
+    background-image: url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color:$bg-white;
+    // padding-top:150px;
+    font-size: 60px;
+    font-family: $font-family;
+}
+.btn1{
+    margin-top:20px;
+    border-radius: 15px;
+    height: 42px;
+    width: 159px;
+    background-color: $bg-orange;
+    color:$bg-white;
+    border:none;
+   margin-left:62px;    
+}
+@media screen and(max-width:480px){
+    .btn{
+        margin-top:20px;
+        border-radius: 15px;
+        height: 42px;
+        width: 159px;
+        background-color: $bg-orange;
+        color:$bg-white;
+        border:none;
+       margin-left: 150px;
+    }
+    
+}
+.p1{
+    color:$bg-white;
+    font-family: $font-family;
+    font-size: 20px;
+    
+    
+}
+.p2{
+    color:$bg-white;
+    font-family: $font-family;
+}
+.im1{
+    height:500px;
+    width:80%;
+}
+.slider1{
+    width:100%;
+    height:500px;
+    background-image: url(../img/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn2{
+    background-color: orange;
+    color: #fff;
+    height: 37px;
+    width: 150px;
+    border-radius: 10px
+    
+}
+.heading1{
+  color:$bg-white;
+  font-size: 25px;
+  font-family: $font-family;
+  
+  
+}
+.slider2{
+    width:100%;
+    height:500px;
+    background-image: url(../img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fo{
+    border-radius: 10px;
+    height: 47px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.al{
+    border-radius: 10px;
+    height: 47px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-btn{
+    border-radius: 11px;
+    background-color: $bg-orange;
+    margin-top: 6px;
+}
+.slider3{
+    width:100%;
+    height:500px;
+    background-image: url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.im-l{
+    margin-left:50px;
+}
+.im-3{
+  width:80%;
+  height:400px;
+}
+.heading2{
+  color:$bg-white;
+  font-size: 30px;
+  margin-left:50px;
+  font-family: $font-family;
+}
+.p-3{
+   margin-left:20px;
+}
+.p4{
+    color:$bg-orange;
+    // margin-left:50px;
+}
+.p5{
+    color:$bg-white;
+}
+.slider5{
+    width:100%;
+    height:500px;
+    background-image: url(../img/slider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.slider6{
+    width:100%;
+    height:500px;
+    background-image: url(../img/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.slider7{
+    width:100%;
+    height:400px;
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.btn3{
+    margin-left:20px;
+}
+// .navbar-nav{
+//     ul{
+//         li{
+//             a:hover{
+//                 background-color: ;
+//             }
+//         }
+//     }
+// }
+.slider8{
+    width:100%;
+    height:400px;
+    background-image: url(../img/bg-reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+// .im-n{
+//     width:100%;
+//     height:500px;
+//     background-image: url(../img/food11.png);
+//     background-size: cover;
+// }
+.im-4{
+    margin-left:30px;
+    
+}
+.view{
+    a{
+        text-decoration: none;
+    }
+
+}
+.btn4{
+    width: 132px;
+    height: 41px;
+    border-radius: 16px;
+    color: $bg-black;
+    border:none;
+    background-color:$bg-orange;
+    margin-top:10px;
+
+}
+.u{
+    ul{
+    
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color:$bg-orange;
+            }
+        }
+    }
+}
+.hov{
+    ul:hover{
+        
+        li:hover{
+            
+            
+            
+            a:hover{ 
+                color:$bg-orange !important;
+                
+
+            }
+        }
+    }
+
+}
+.hov{
+    ul{
+        
+        li{ 
+            a{ 
+                color:$bg-white !important;
+                
+
+            }
+        }
+    }
+
+}
+
